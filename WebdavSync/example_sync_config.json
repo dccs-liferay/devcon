@@ -1,0 +1,133 @@
+{
+  "server": [
+    {
+      "enabled" : "true",
+      "upload" : "false",
+      "name" : "Local Testserver (Download)",
+      "url": "http://localhost:8080",
+      "username": "test@liferay.com",
+      "password": "test",
+      "folders": [
+        {
+          "remotePath": "/webdav",
+          "syncFolder": "/global/application_display_template",
+          "localPath": "/tmp/devcon2"
+        },
+        {
+          "remotePath": "/webdav",
+          "syncFolder": "/guest/application_display_template",
+          "localPath": "/tmp/devcon2"
+        },
+        {
+          "remotePath": "/webdav",
+          "syncFolder": "/global/journal",
+          "localPath": "/tmp/devcon2"
+        }
+      ],
+      "blacklist": [
+		"Arrows",
+		"Bar default styled",
+		"Bar minimally justified styled",
+		"Bar minimally styled",
+		"Basic",
+		"Carousel",
+		"Color by Popularity",
+		"Horizontal",
+		"Icon Menu",
+		"Icon",
+		"List Menu",
+		"Long Text",
+		"Map",
+		"Multi Column Layout",
+		"Navigation common macros",
+		"Navigation",
+		"Pills Horizontal",
+		"Pills Justified",
+		"Pills Stacked",
+		"Rich Summary",
+		"Select Box",
+		"Short Text",
+		"Social",
+		"Split Button Dropdowns",
+		"Tabs Justified",
+		"Tabs",
+		"Vertical",
+		"Basic Web Content"
+      ]
+    },
+    {
+      "enabled" : "false",
+      "url": "https://someserver.somewhere.at",
+      "name" : "Some server",
+      "username": "someuser",
+      "password": "somepassword",
+      "folders": [
+        {
+          "remotePath": "/webdav",
+          "syncFolder": "/global/application_display_template",
+          "localPath": "/tmp/someserver"
+        },
+        {
+          "remotePath": "/webdav",
+          "syncFolder": "/guest/application_display_template",
+          "localPath": "/tmp/someserver"
+        },
+        {
+          "remotePath": "/webdav",
+          "syncFolder": "/global/journal",
+          "localPath": "/tmp/someserver"
+        }
+      ],
+      "blacklist": [
+		"Arrows",
+		"Bar default styled",
+		"Bar minimally justified styled",
+		"Bar minimally styled",
+		"Basic",
+		"Carousel",
+		"Color by Popularity",
+		"Horizontal",
+		"Icon Menu",
+		"Icon",
+		"List Menu",
+		"Long Text",
+		"Map",
+		"Multi Column Layout",
+		"Navigation common macros",
+		"Navigation",
+		"Pills Horizontal",
+		"Pills Justified",
+		"Pills Stacked",
+		"Rich Summary",
+		"Select Box",
+		"Short Text",
+		"Social",
+		"Split Button Dropdowns",
+		"Tabs Justified",
+		"Tabs",
+		"Vertical",
+		"Basic Web Content"
+      ]
+    },
+    {
+      "enabled" : "true",
+      "upload" : "true",
+      "name" : "Local Testserver (Upload)",
+      "url": "http://localhost:8080",
+      "username": "test@liferay.com",
+      "password": "test",
+      "folders": [
+        {
+          "remotePath": "/webdav",
+          "syncFolder": "/global/application_display_template",
+          "localPath": "/tmp/devcon"
+        },
+        {
+          "remotePath": "/webdav",
+          "syncFolder": "/global/journal/Templates",
+          "localPath": "/tmp/devcon"
+        }
+      ]
+    }
+  ]
+}
