@@ -1,0 +1,5 @@
+Bundle-Name: at.dccs.liferay.dccs-search
+Bundle-SymbolicName: at.dccs.search
+Bundle-Version: 1.0.0
+Export-Package: at.dccs.liferay.search
+-metatype: *

@@ -1,0 +1,5 @@
+Bundle-Name: MenuSearchService
+Bundle-SymbolicName: at.dccs.liferay.menu
+Bundle-Version: 1.0.0
+Export-Package: at.dccs.liferay.menu
+-metatype: *
